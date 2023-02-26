@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #101010;
+}
+
+
+.headerMainDiv {
+    width: 80%;
+    margin: auto;
+    background-color: #101010;
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.logo {
+    width: 6rem;
+}
+
+.menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+
+.menus h1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mainHeading {
+    color: white;
+    font-size: 4.2rem;
+}
+
+.mainHeading h4 {
+    font-size: 26px;
+    padding: 20px;
+}
+
+.Download {
+    padding: 20px 40px;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 50px;
+    border: none;
+}
+
+.mainHeading img {
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.ExploreDiv {
+    background-color: #dc1d52;
+    display: flex;
+    padding: 150px;
+    text-align: left;
+}
+.ExpDiv {
+    background-color: #0a27aa;
+    display: flex;
+    padding: 150px;
+    text-align: left;
+}
+.secDiv {
+    background-image: linear-gradient(to bottom, #3e0ba7, #8553ec);
+    display: flex;
+    padding: 150px;
+    text-align: left;
+}
+
+.Explore {
+    background-color: #dc1d52;
+    width: 40%;
+    padding-top: 200px;
+    color: white;
+    font-size: 2rem;
+    padding: 100px;
+}
+.Exp {
+    background-color: #0a27aa;
+    width: 50%;
+    padding-top: 200px;
+    color: white;
+    font-size: 2rem;
+    padding: 100px;
+}
+.sec {
+    background-color: transparent;
+    width: 50%;
+    padding-top: 200px;
+    color: white;
+    font-size: 2rem;
+    padding: 100px;
+}
+
+.Explore h1 {
+    background-color: #dc1d52;
+}
+.sec h1 {
+    background-color: transparent;
+}
+.Exp h1 {
+    background-color: #0a27aa;
+}
+
+.ex {
+    font-size: 25px;
+    background-color: #dc1d52;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.ss {
+    font-size: 25px;
+    background-color: transparent;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.exP {
+    font-size: 25px;
+    background-color: #0a27aa;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.summary {
+    font-size: 20px;
+    text-align: start;
+    background-color: #dc1d52;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.summary2 {
+    font-size: 20px;
+    text-align: start;
+    background-color: rgba(255, 252, 252, 0);
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.summary1 {
+    font-size: 20px;
+    text-align: start;
+    background-color: #0a27aa;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.BrandDiv {
+    background-color: white;
+}
+
+.brandMain {
+    background-color: white;
+    padding: 40px;
+    width: 60%;
+}
+
+.brandMain h1 {
+    background-color: white;
+    color: #101010;
+    text-align: start;
+    margin-left: 40px;
+}
+
+.OptionDiv {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 200px 80px;
+}
+
+.OptH1 {
+    font-size: 100px;
+    width: 70%;
+    
+    margin-bottom: 50px;
+}
+
+.OptP {
+    font-size: 25px;
+    width: 80%;
+    text-align: left;
+}
+
+.Imge  {
+    width: 50%;
+    font-size: 50px;
+    margin-right: 10%;
+}
+
+
+.images {
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 110vh;
+    filter: brightness(50px);
+}
+
+.Story {
+    color: white;
+    width: 100%;
+    background-color: #017758;
+    padding: 100px;
+    display: flex;
+    gap: 20%;
+}
+
+.Story h1 {
+    width: 50vw;
+    background-color: #017758;
+    text-align: start;
+    font-size: 70px;
+}
+
+.Story p {
+    width: 50%;
+    background-color: #017758;
+    font-size: 20px;
+    text-align: left;
+}
